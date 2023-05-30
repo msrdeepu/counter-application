@@ -1,0 +1,26 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-family: sans-serif;
+}
+.button {
+  margin: 15px;
+  padding: 8px;
+  font-family: sans-serif;
+  border-radius: 8px;
+  border-style: none;
+}
+.increase {
+  background-color: skyblue;
+  color: purple;
+}
+.decrease {
+  background-color: orange;
+  color: white;
+}
+.counterValue {
+  font-size: 45px;
+}
